@@ -7,6 +7,7 @@ target 'image_analysis' do
 
   # Pods for image_analysis
   pod 'RealmSwift'
+  pod 'R.swift'
 
   target 'image_analysisTests' do
     inherit! :search_paths
