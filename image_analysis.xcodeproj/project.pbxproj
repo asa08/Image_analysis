@@ -18,6 +18,12 @@
 		8E2E735225EB4A6700E69225 /* image_analysisUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2E735125EB4A6700E69225 /* image_analysisUITests.swift */; };
 		8E2E73D325EB636B00E69225 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E2E73D225EB636B00E69225 /* HomeViewController.xib */; };
 		8E2E73DC25EB65E800E69225 /* HomeBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2E73DB25EB65E800E69225 /* HomeBuilder.swift */; };
+		8E2E760625ED42B700E69225 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E2E760025ED42B700E69225 /* Realm.framework */; };
+		8E2E760825ED42B700E69225 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E2E760125ED42B700E69225 /* RealmSwift.framework */; };
+		8E2E760A25ED42B700E69225 /* Rswift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E2E760225ED42B700E69225 /* Rswift.framework */; };
+		8E2E760C25ED42B700E69225 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E2E760325ED42B700E69225 /* RxCocoa.framework */; };
+		8E2E760E25ED42B700E69225 /* RxRelay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E2E760425ED42B700E69225 /* RxRelay.framework */; };
+		8E2E761025ED42B700E69225 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E2E760525ED42B700E69225 /* RxSwift.framework */; };
 		F02A69A58EFCD2B095066D56 /* Pods_image_analysis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CDECF769721FC64BE7B0EB1 /* Pods_image_analysis.framework */; };
 /* End PBXBuildFile section */
 
@@ -58,6 +64,12 @@
 		8E2E735325EB4A6700E69225 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8E2E73D225EB636B00E69225 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 		8E2E73DB25EB65E800E69225 /* HomeBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeBuilder.swift; sourceTree = "<group>"; };
+		8E2E760025ED42B700E69225 /* Realm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Realm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E2E760125ED42B700E69225 /* RealmSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E2E760225ED42B700E69225 /* Rswift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Rswift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E2E760325ED42B700E69225 /* RxCocoa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RxCocoa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E2E760425ED42B700E69225 /* RxRelay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RxRelay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E2E760525ED42B700E69225 /* RxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9056C4F9B03370D54E145D63 /* Pods_image_analysis_image_analysisUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_image_analysis_image_analysisUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A55B1AF6C6A8D58A41952047 /* Pods-image_analysis.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-image_analysis.debug.xcconfig"; path = "Target Support Files/Pods-image_analysis/Pods-image_analysis.debug.xcconfig"; sourceTree = "<group>"; };
 		C7AD99017CA6FF25D0B5A8FA /* Pods-image_analysisTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-image_analysisTests.debug.xcconfig"; path = "Target Support Files/Pods-image_analysisTests/Pods-image_analysisTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -70,7 +82,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E2E760625ED42B700E69225 /* Realm.framework in Frameworks */,
 				F02A69A58EFCD2B095066D56 /* Pods_image_analysis.framework in Frameworks */,
+				8E2E761025ED42B700E69225 /* RxSwift.framework in Frameworks */,
+				8E2E760E25ED42B700E69225 /* RxRelay.framework in Frameworks */,
+				8E2E760825ED42B700E69225 /* RealmSwift.framework in Frameworks */,
+				8E2E760C25ED42B700E69225 /* RxCocoa.framework in Frameworks */,
+				8E2E760A25ED42B700E69225 /* Rswift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -109,6 +127,12 @@
 		795D94D5418C5D9D7C867CC8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8E2E760025ED42B700E69225 /* Realm.framework */,
+				8E2E760125ED42B700E69225 /* RealmSwift.framework */,
+				8E2E760225ED42B700E69225 /* Rswift.framework */,
+				8E2E760325ED42B700E69225 /* RxCocoa.framework */,
+				8E2E760425ED42B700E69225 /* RxRelay.framework */,
+				8E2E760525ED42B700E69225 /* RxSwift.framework */,
 				2CDECF769721FC64BE7B0EB1 /* Pods_image_analysis.framework */,
 				9056C4F9B03370D54E145D63 /* Pods_image_analysis_image_analysisUITests.framework */,
 				E6220CCFD5FE8134AC886671 /* Pods_image_analysisTests.framework */,
@@ -613,7 +637,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A55B1AF6C6A8D58A41952047 /* Pods-image_analysis.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -634,7 +657,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5A1F822BE71965D73DB1FCB4 /* Pods-image_analysis.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
