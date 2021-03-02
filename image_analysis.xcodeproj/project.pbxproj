@@ -221,10 +221,34 @@
 		8E2E73E325EB669200E69225 /* HomeViewController */ = {
 			isa = PBXGroup;
 			children = (
+				8EEB15D325EE599F00B462F1 /* View */,
+				8EEB15D425EE59A900B462F1 /* ViewModel */,
+				8EEB15D525EE59B900B462F1 /* Model */,
+			);
+			path = HomeViewController;
+			sourceTree = "<group>";
+		};
+		8EEB15D325EE599F00B462F1 /* View */ = {
+			isa = PBXGroup;
+			children = (
 				8E2E73D225EB636B00E69225 /* HomeViewController.xib */,
 				8E2E733325EB4A6500E69225 /* HomeViewController.swift */,
 			);
-			path = HomeViewController;
+			path = View;
+			sourceTree = "<group>";
+		};
+		8EEB15D425EE59A900B462F1 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		8EEB15D525EE59B900B462F1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
